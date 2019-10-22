@@ -21,7 +21,6 @@
   margin-top: 3%;
   display: flex;
   justify-content: center;
-  font-family: ;
   font-family: "Roboto", sans-serif;
 }
 
@@ -34,25 +33,18 @@
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
-
+.button-div {
+  display: flex;
+  justify-content: center;
+}
 .button {
   background: #4e3fce;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   background-color: #38b799;
-  border: none;
   color: white;
   padding: 15px 35px;
   cursor: pointer;
   margin-top: 3%;
-  margin-left: 45%;
-  margin-right: 45%;
   font-family: "Roboto", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.button:hover {
-  background-color: #38b799;
 }
